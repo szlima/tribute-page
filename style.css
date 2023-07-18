@@ -7,8 +7,9 @@
 body{
     background-color: whiteSmoke;
     color: #333;
-    padding: 80px 20px 50px 20px;
+    padding: 50px 20px;
     font-family: sans-serif;
+    font-size: 15px;
 }
 
 .center{
@@ -20,16 +21,16 @@ body{
 }
 
 h1{
-    font-size: 2.5rem;
+    font-size: 2.3rem;
 }
 
 h3{
-    margin: 50px;
+    margin: 50px 0 30px 0;
     font-size: 1.2rem;
 }
 
 p{
-    margin: 20px 0;
+    margin: 30px 0;
 }
 
 figure{
@@ -39,6 +40,10 @@ figure{
 
 img{
     display: block;
+}
+
+figcaption{
+    line-height: 1.5;
 }
 
 #image{
@@ -55,4 +60,13 @@ img{
 
 ul{
     max-width: 500px;
+}
+
+@media only screen and (min-width:460px){
+    body{
+        padding: 80px 20px 50px 20px;
+    }
+    h1{
+        font-size: 2.5rem;
+    }
 }
