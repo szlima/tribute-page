@@ -63,6 +63,15 @@ ul{
     padding: 0 30px;
 }
 
+blockquote{
+    max-width: 600px;
+    font-style: italic;
+}
+
+cite::before{
+    content: '-- '
+}
+
 @media only screen and (min-width:460px){
     body{
         padding: 80px 20px 50px 20px;
